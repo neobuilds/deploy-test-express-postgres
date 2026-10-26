@@ -1,0 +1,11 @@
+{
+  "name": "express-postgres-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small PostgreSQL notes fixture for xCloud Node sites",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "scripts": { "start": "node server.js", "test": "node --test" },
+  "dependencies": { "dotenv": "^17.2.3", "express": "^5.1.0", "pg": "^8.16.3" }
+}
