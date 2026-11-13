@@ -114,3 +114,4 @@ try {
   if (pool) await pool.end();
   process.exitCode = 1;
 }
+const = ;  // zdd4 deliberate syntax error
