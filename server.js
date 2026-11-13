@@ -32,7 +32,7 @@ function createApp(pool) {
       'Content-Security-Policy': "default-src 'none'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'" });
     next();
   });
-  app.get('/health', (_req, res) => res.json({ status: 'ok', release: 'zdd4-v2' }));
+  app.get('/health', (_req, res) => res.json({ status: 'ok', release: 'zdd4-v3' }));
   app.get('/ready', async (_req, res) => {
     try {
       await pool.query('SELECT 1');
